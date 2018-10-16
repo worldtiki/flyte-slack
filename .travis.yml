@@ -23,3 +23,5 @@ deploy:
     - docker push $IMAGE:$MAJOR_VERSION.$TRAVIS_BUILD_NUMBER && docker push $IMAGE:latest
   on:
     branch: master
+
+#test
